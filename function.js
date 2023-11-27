@@ -1,9 +1,10 @@
-// funcao e um liquidificador
+// function scope
 
-function fazerSuco(fruta1, fruta2) {
-  return fruta1 + fruta2
+let subject = 'createvideo'
+function createThink(subject) {
+  subject = 'study'
+  return subject
 }
 
-const copo = fazerSuco('banana', 'maca')
-
-console.log(copo)
+console.log(subject)
+console.log(createThink(subject))
