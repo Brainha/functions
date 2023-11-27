@@ -1,17 +1,9 @@
-// function expression
-//funcgtion anonymous
+// funcao e um liquidificador
 
-// parametros ( parameters)
-const sum = function (number1, number2) {
-  total = number1 + number2
-  return total
+function fazerSuco(fruta1, fruta2) {
+  return fruta1 + fruta2
 }
 
+const copo = fazerSuco('banana', 'maca')
 
-let number1 = 34
-let number2 = 25
-
-
-console.log(`o numero 1 e ${number1}`)
-console.log(`o numero 2 e ${number2}`)
-console.log(`a soma e ${sum(number1, number2)}`)
+console.log(copo)
