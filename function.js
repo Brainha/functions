@@ -1,19 +1,8 @@
-/*  
-  Fcuntion() constructor
+/* 
+  Prototype
 
-  * expressao new
-  * criar um novo objeto
-  * this keyword
+  * prototype-based language
+  * prototype chain
+  * __proto__
 
 */
-
-function Person(name) {
-  this.name = name
-  this.walk = function () {
-    return this.name + " esta andando"
-  }
-}
-const mayk = new Person('braia')
-const joao = new Person('joao')
-console.log(mayk.walk())
-console.log(joao.walk())
