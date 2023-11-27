@@ -1,6 +1,11 @@
-// arrow function
+// callback function
 
-const sayMyName = () => {
-  console.log('braia')
+function sayMyName(name) {
+  name()
 }
-sayMyName()
+
+sayMyName(
+  () => {
+    console.log('estou em uma callback')
+  }
+)
