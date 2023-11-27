@@ -1,10 +1,7 @@
-// function scope
+// function hoisting
 
-let subject = 'createvideo'
-function createThink(subject) {
-  subject = 'study'
-  return subject
+sayMyName()
+
+function sayMyName() {
+  console.log('braia')
 }
-
-console.log(subject)
-console.log(createThink(subject))
