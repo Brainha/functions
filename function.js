@@ -1,2 +1,5 @@
-let myArray = new Array('a', 'b', 'c')
-console.log(myArray)
+console.log(["a",
+  { type: "array" },
+  function () {
+    return "alo"
+  }])
