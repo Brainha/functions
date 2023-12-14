@@ -1,5 +1,2 @@
-console.log(["a",
-  { type: "array" },
-  function () {
-    return "alo"
-  }])
+let word = "manipulacao"
+console.log(Array.from(word))
